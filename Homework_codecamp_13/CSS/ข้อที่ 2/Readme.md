@@ -1,6 +1,6 @@
 ### CodeCamp Online รุ่นที่13
 
-# Suppanut Sukuntapuksa
+# Tanapron Kiewcomgoon
 
 โจทย์ CSS ข้อที่ 2
 - ให้สร้าง web page ดังภาพจาก style ด้านล่าง
