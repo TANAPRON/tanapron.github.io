@@ -10,4 +10,5 @@ note:
 2. สนใจเฉพาะส่วนที่วงสีแดง
 3. upload ขึ้น github.io
 
+[Link to Preview](https://tanapron.github.io/Homework_codecamp_13/HTML/ข้อที่%201/index.html)
 ![pic](Homework_HTML2.png)

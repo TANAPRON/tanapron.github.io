@@ -15,4 +15,5 @@
 - มี link ไปยัง 2 หน้าที่เหลือ
 4. เมื่อเรียบแล้วให้ส่ง web ขึ้น github.io ของตัวเอง
 
+[Link to Preview](https://tanapron.github.io/Homework_codecamp_13/HTML/ข้อที่%201/index.html)
 ![pic](Homework_HTML1.png)
