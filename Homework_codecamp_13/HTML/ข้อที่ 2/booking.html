@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Online</title>
+    <style>
+        * { padding: 0; margin: 0; box-sizing: border-box;}
+        body {
+          font-size: large;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h2 {
+          margin: 50px;
+        }
+        .container {
+          border: 1px solid blue;
+          border-radius: 10%;
+          width: fit-content;
+          margin: 50px;
+        }
+        .box {
+          display: inline-block;
+          padding: 1em;
+        }
+      </style>
+</head>
+<body>
+    <h2>Booking Online</h2>
+    <div class="container">
+      <div class="box">
+          <form>
+            <label for="country">Flying from</label> <br>
+            <select name="country" id="country">
+              <option value="karachiPakistan">Karachi, Pakistan</option>
+              <option value="bangkokThailand">Bangkok, Thailand</option>
+              <option value="jakartaIndonesia">Jakarta, Indonesia</option>
+              <option value="singaporeSingapore">Singapore, Singapore</option>
+          </select>
+        </form>
+      </div>
+      <div class="box">
+          <form>
+            <label for="country">To</label> <br>
+            <select name="country" id="country">
+              <option value="bangkokThailand">Bangkok, Thailand</option>
+              <option value="karachiPakistan">Karachi, Pakistan</option>
+              <option value="jakartaIndonesia">Jakarta, Indonesia</option>
+              <option value="singaporeSingapore">Singapore, Singapore</option>
+            </select>
+          </form>
+      </div>
+      <br>
+      <div class="box">
+          <form action="">
+            <label for="departing">Departing</label> <br>
+            <input type="date" id="departing" name="departing">
+          </form>
+      </div>
+      <div class="box">
+          <form action="">
+            <label for="returning">Returning</label> <br >
+            <input type="date" id="returning" name="returning">
+          </form>
+      </div>
+      <br>
+      <div class="box">
+          <form action="">
+            <label for="adult">Adult</label> <br>
+            <input type="number" id="adult" name="adult" min="0" max="100" value="1">
+          </form>
+      </div>
+      <div class="box">
+          <form action="">
+            <label for="child">Child</label> <br>
+            <input type="number" id="child" name="child" min="0" max="100" value="0">
+          </form>
+      </div>  
+      <div class="box">
+        <form action="">
+          <label for="infant">Infant</label> <br>
+          <input type="number" id="infant" name="infant" min="0" max="10" value="0">
+        </form>
+      </div>  
+      <div class="box">
+        <form action="">
+          <label for="currency" style="color:tomato;">Currency</label> <br>
+          <select id="currency" name="currency">
+            <option value="pkr">PKR</option>
+            <option value="thb">THB</option>
+            <option value="idr">IDR</option>
+            <option value="sgd">SGD</option>
+          </select>
+        </form>
+      </div>
+      <br>
+      <div class="box">
+        <input type="submit" value="SEARCH" style="background-color: rgb(255, 64, 0); color:white; border:none; border-radius:5px; padding:10px 20px;">
+      </div>
+    </div>
+    
+</body>
+</html>
